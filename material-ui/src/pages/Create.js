@@ -1,5 +1,20 @@
 import React from "react";
+import { Typography, Button, ButtonGroup, Container } from "@mui/material";
 
 export default function Create() {
-  return <div>Create</div>;
+  return (
+    <Container>
+      <Typography variant="h1" color="secondary" component="h2" gutterBottom>
+        Create a new note
+      </Typography>
+      <Button type="submit" color="primary" variant="contained">
+        Submit
+      </Button>
+      <ButtonGroup variant="contained">
+        <Button>1</Button>
+        <Button>2</Button>
+        <Button>3</Button>
+      </ButtonGroup>
+    </Container>
+  );
 }
