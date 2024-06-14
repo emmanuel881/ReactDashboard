@@ -1,5 +1,6 @@
 import React from "react";
 import { Typography, Button, ButtonGroup, Container } from "@mui/material";
+import AcUnitOutlinedIcon from "@mui/icons-material/AcUnitOutlined";
 
 export default function Create() {
   return (
@@ -15,6 +16,7 @@ export default function Create() {
         <Button>2</Button>
         <Button>3</Button>
       </ButtonGroup>
+      <AcUnitOutlinedIcon />
     </Container>
   );
 }
